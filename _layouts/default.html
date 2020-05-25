@@ -1,65 +1,70 @@
 <!doctype html>
 <html lang="en">
-	    <head>
-		        {% include analytics.html %}
-		        <meta charset="UTF-8">
-		        <meta name="description" content="Brian Lokerbie's personal website">
-		        <meta name="keywords" content="Brian Lockerbie Developer">
-		        <meta name="author" content="Brian Lockerbie">
-		        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		        <link rel="icon" href="{{ site.baseurl }}{% link img/favicon.ico %}">
-		        <title>{{ page.title }} | Brian Lockerbie</title>
-		        <!-- Font Awesome CDN -->
-		        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		        <!-- bootstrap CDN -->
-		        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		        <link rel="stylesheet" href="{{ site.baseurl }}{% link styles/styles.css %}">
-	    </head>
-	    <body>
-		        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbarToggleExternalContent">
-		          <a class="navbar-brand" href="#">Brian Lockerbie</a>
-		          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		            <span class="navbar-toggler-icon"></span>
-		          </button>
-		          <div class="collapse navbar-collapse" id="navbarNav">
-		            <ul class="navbar-nav">
-		              <li class="nav-item">
-		                <a class="nav-link" href="{{ site.baseurl }}{% link index.html %}">Home</a>
-		              </li>
-		              <li class="nav-item">
-		                <a class="nav-link" href="{{ site.baseurl }}{% link pages/portfolio.html %}">Portfolio</a>
-		              </li>
-		              <li class="nav-item">
-		                <a class="nav-link" href="{{ site.baseurl }}{% link pages/blog.html %}">Blog</a>
-		              </li>
-		            </ul>
-		          </div>
-		         </nav>
-		         <div class="jumbotron">
-		           <div class="container">
-		             <h1 class="display-4">Brian Lockerbie</h1>
-		             <p class="lead">Full Stack Web Developer</p>
-		           </div>
-		         </div>
-		         <div class="main-content">
-			             <!-- Main Content -->
-			             {{ content }}
-			             <!-- /Main Content -->
-			             <div class="container">
-				                 <p>Follow me on: <a href="https://twitter.com/BrianLockerbie" target="_blank">Twitter</a><br>
-				                 Check out my: <a href="https://github.com/brianlockerbie" target="_blank">GitHub</a><br>
-				                 Check out my: <a href="https://www.linkedin.com/in/brian-lockerbie/" target="_blank">LinkedIn</a></p>
-			             </div>
-		         </div>
+	<head>
+		{% include analytics.html %}
+		<meta charset="UTF-8">
+		<meta name="description" content="Brian Lockerbie's personal website">
+		<meta name="keywords" content="Brian Lockerbie Developer">
+		<meta name="author" content="Brian Lockerbie">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="{{ site.baseurl }}{% link img/favicon.ico %}">
+		<title>{{ page.title }} | Brian Lockerbie</title>
+		<!-- Font Awesome CDN -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<!-- bootstrap CDN -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="{{ site.baseurl }}{% link styles/styles.css %}">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbarToggleExternalContent">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="{{ site.baseurl }}{% link index.html %}">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="{{ site.baseurl }}{% link pages/portfolio.html %}">Portfolio</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="{{ site.baseurl }}{% link pages/blog.html %}">Blog</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		<div class="jumbotron">
+		  <div class="container">
+		    <h1 class="display-4">Brian Lockerbie</h1>
+		    <p class="lead">Full Stack JavaScript Developer</p>
+		  </div>
+		</div>
+		<div class="main-content">
+			<!-- Main Content -->
+			{{ content }}
+			<!-- /Main Content -->
+			<div class="container">
+				<p>Contact me at: <a href="mailto:brian.lockerbie@gmail.com">brian.lockerbie@gmail.com</a></p>
+			</div>
+		</div>
 
-		         <nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light">
-			             <div class="container float-left">
-		  		                 <p>Brian Lockerbie 2020</p>
-		  	             </div>
-		  	             <div class="float-right foot-text">
-		  		                 <p>Made with <strong><span class="b-s">Bootstrap</span></strong> and <strong><span class="jk">Jekyll</span></strong>.</p>
-		  	             </div>
-		         </nav>
+		<nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light">
+			<div class="container float-left">
+		  		<p>Brian Lockerbie 2020</p>
+		  	</div>
+		  	<div class="float-right foot-text">
+		  		<p>Made with <strong><span class="b-s">Bootstrap</span></strong> and <strong><span class="jk">Jekyll</span></strong>.</p>
+		  		<div class="icons">
+		  	<p>
+		  		<a href="https://twitter.com/BrianLockerbie" target="_blank"><i class="fab fa-twitter"></i></a>
+		  		<a href="https://github.com/brianlockerbie" target="_blank"><i class="fab fa-github"></i></a>
+		  		<a href="https://www.linkedin.com/in/brian-lockerbie/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		  		<a href="mailto:brian.lockerbie@gmail.com"><i class="fas fa-at"></i></a>
+		  	</p>
+		  </div>
+		  	</div>
+		</nav>
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
