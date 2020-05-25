@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="description" content="Brian Lockerbie's personal website">
-		<meta name="keywords" content="Brian Lockerbie Developer">
-		<meta name="author" content="Brian Lockerbie">
+		<meta name="description" content="Jason Howie's personal website">
+		<meta name="keywords" content="Jason Howie Developer">
+		<meta name="author" content="Jason Howie">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" href="{{ site.baseurl }}{% link img/favicon.ico %}">
 		<title>{{ page.title }} | Brian Lockerbie</title>
@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<!-- bootstrap CDN -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="{{ site.baseurl}}{% link styles/styles.css %}">
+		<link rel="stylesheet" href="{{ site.baseurl }}{% link styles/styles.css %}">
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbarToggleExternalContent">
@@ -44,16 +44,19 @@
 			<!-- Main Content -->
 			{{ content }}
 			<!-- /Main Content -->
+			<div class="container">
+				<p>Follow me on: <a href="https://twitter.com/BrianLockerbie" target="_blank">Twitter</a><br>
+				Check out my: <a href="https://github.com/brianlockerbie" target="_blank">GitHub</a><br>
+				Check out my: <a href="https://www.linkedin.com/in/brian-lockerbie/" target="_blank">LinkedIn</a></p>
+			</div>
 		</div>
 
 		<nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light">
 			<div class="container float-left">
 		  		<p>Brian Lockerbie 2020</p>
 		  	</div>
-		  	<div class=" float-right">
-                <a href="https://github.com/brianlockerbie" target="_blank" class="float-left"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/BrianLockerbie" target="_blank" class="float-center"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/brian-lockerbie/" target="_blank" class="float-right"><i class="fab fa-linkedin-in"></i></a>
+		  	<div class="float-right foot-text">
+		  		<p>Made with <strong><span class="b-s">Bootstrap</span></strong> and <strong><span class="jk">Jekyll</span></strong>.</p>
 		  	</div>
 		</nav>
 
