@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Random Quote Generator
+live_url: https://brianlockerbie.com/random-quote-generator/
 github_url: https://github.com/brianlockerbie/TechDegreeProject-1
 image: img/screenshot_1.png
 date: 2020-05-25 12:00:00 -0400
