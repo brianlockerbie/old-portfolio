@@ -4,6 +4,7 @@ author: Brian Lockerbie
 description: Brian Lockerbie's personal website
 url: 'https://brianlockerbie.com'
 baseurl: ''
+# Permalink for blog posts
 permalink: /blog/:year/:month/:title/
 
 # Collections for portfolio
