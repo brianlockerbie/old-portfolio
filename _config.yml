@@ -1,4 +1,13 @@
+# Site Variables
+title: Brian Lockerbie
+author: Brian Lockerbie
+description: Brian Lockerbie's personal website
 url: 'https://brianlockerbie.com'
 baseurl: ''
-
 permalink: /blog/:year/:month/:title/
+
+# Collections for portfolio
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/

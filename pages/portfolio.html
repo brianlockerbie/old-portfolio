@@ -1,15 +1,23 @@
+  
 ---
 layout: default
 title: Portfolio
 permalink: /portfolio/
 ---
 <div>
-	  <h1>Portfolio</h1>
-	  <div class="card mb-3">
-	    <img class="card-img-top too-big" src="../img/screenshot_1.png" alt="Random Phrase Generator">
-	    <div class="card-body">
-	      <h5 class="card-title"><a href="https://jasonrhowie.com/" target="_blank">Random Phrase Generator Project</a></h5>
-	      <p class="card-text">First project for the Treehouse Full-Stack JavaScript Techdegree. Single-paged app that displays a quote at random each time the button is clicked. Uses knowledge of basic JavaScript syntax, variables, loops, conditionals and object literals. here. You can veiw the github repo here.</p> 
-		  <p>View the  <a href="https://github.com/brianlockerbie/TechDegreeProject-1" target="blank">github repo</a>.</p>
-	    </div>
-	  </div>
+	<h1>Portfolio</h1>
+	<div class="card-deck">
+		{% for project in site.portfolio %}
+			<div class="card">
+				<img class="card-img-top" src="{{ site.baseurl }}/{{ project.image }}" alt="Card image cap">
+				<div class="card-body">
+				  <a href="{{ project.url }}"><h5 class="card-title">{{ project.title }}</h5></a>
+				  <p class="card-text">{{ project.description }}</p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-muted">Created {{ project.created }}</small>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
