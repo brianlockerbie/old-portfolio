@@ -1,23 +1,23 @@
-  
 ---
 layout: default
 title: Portfolio
 permalink: /portfolio/
 ---
 <div>
-	<h1>Portfolio</h1>
-	<div class="card-deck">
-		{% for project in site.portfolio %}
-			<div class="card">
-				<img class="card-img-top" src="{{ site.baseurl }}/{{ project.image }}" alt="Card image cap">
-				<div class="card-body">
-				  <a href="{{ project.url }}"><h5 class="card-title">{{ project.title }}</h5></a>
-				  <p class="card-text">{{ project.description }}</p>
-				</div>
-				<div class="card-footer">
-				  <small class="text-muted">Created {{ project.created }}</small>
-				</div>
-			</div>
-		{% endfor %}
-	</div>
+	    <h1>Portfolio</h1>
+	    <div class="row">
+		        {% for project in site.portfolio %}
+		        <div class="col-sm-6">
+			            <div class="card">
+							    <img class="card-img-top {% if project.title == 'Random Quote Generator' %}too-big{% endif %}" src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.title }}">
+				                <div class="card-body">
+				 	                    <h5 class="card-title">{{ project.title }}</h5>
+					                    <p class="card-text">{{ project.description }}</p>
+					                    <p class="card-text"><small class="text-muted">Created: {{ project.created }}</small></p>
+					                    <a href="{{ project.url }}" class="btn btn-info">View Details</a>
+				                </div>
+			            </div>
+		        </div>
+		        {% endfor %}
+	    </div>
 </div>
