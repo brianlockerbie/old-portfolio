@@ -3,7 +3,8 @@ layout: default
 ---
 <div class="container post">
 	    <h5>{{ page.title }}</h5>
-	    <h6>{{ page.date | date: "%A - %m/%d/%y" }}</h6>
+		<h6>{{ page.date | date: "%A - %m/%d/%y" }}</h6>
+		<p>By: {{ site.author }} {% if page.comments %}| <a href="{{ post.url }}#disqus_thread"></a>{% endif %}</p>
 	    {{ content }}
 </div>
 <div class="container">
@@ -11,7 +12,4 @@ layout: default
 	  Check out my: <a href="https://github.com/brianlockerbie" target="_blank">GitHub</a><br>
 	  Check out my: <a href="https://www.linkedin.com/in/brian-lockerbie/" target="_blank">LinkedIn</a><br>
 	  Contact me at: <a href="mailto:brian.lockerbie@gmail.com">brian.lockerbie@gmail.com</a></p>
-</div>
-<div class="container">
-	  <a href="#">To Top</a>
 </div>
