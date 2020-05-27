@@ -1,6 +1,9 @@
 # Site Variables
 title: Brian Lockerbie
 author: Brian Lockerbie
+# Site Variables
+title: Brian Lockerbie
+author: Brian Lockerbie
 description: Brian Lockerbie's personal website
 url: 'https://brianlockerbie.com'
 baseurl: ''
@@ -12,15 +15,3 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name/
-
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: /:num/
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 3
-    after: 3
