@@ -1,4 +1,8 @@
 group :jekyll_plugins do
+  gem "jekyll-paginate-v2"
+  gem "jekyll-feed"
+end
+
 source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the

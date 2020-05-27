@@ -13,10 +13,6 @@ collections:
     output: true
     permalink: /:collection/:name/
 
-plugins:
-  - jekyll-paginate-v2
-
-
 # Pagination Settings
 pagination:
   enabled: true
