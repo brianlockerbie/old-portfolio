@@ -4,7 +4,6 @@ gem 'master', group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed"
   gem "jekyll-paginate"
   gem "jekyll-minima-theme"
   gem "jekyll-include-cache"
