@@ -1,19 +1,19 @@
----
+    ---
 layout: default
 ---
 <div class="container">
-	<h5>{{ page.title }}</h5>
-	<h6>Created: {{ page.date | date: '%B %Y' }}</h6>
-	<p>{{ page.description }}</p>
+	    <h5>{{ page.title }}</h5>
+	    <h6>Created: {{ page.date | date: '%B %Y' }}</h6>
+	    <p>{{ page.description }}</p>
 </div>
 <div class="container">
-	<img src="{{ site.baseurl }}/{{ page.image }}" class="img-fluid">
+	    <img src="{{ site.baseurl }}/{{ page.image }}" class="img-fluid">
 </div>
 <div class="container">
-	{{ content }}
-	{% if page.live_url %}
-	<a href="{{ page.live_url }}" target="_blank" class="btn btn-info">Live Demo</a>
-	{% endif %}
-	<span><a href="{{ page.github_url }}" target="_blank" class="btn btn-info">Github Repo</a></span>
-	<span><a href="/portfolio/" class="btn btn-info">Back</a></span>
+	    {{ content }}
+	    {% if page.live_url %}
+	    <a href="{{ page.live_url }}" target="_blank" class="btn btn-info">Live Demo</a>
+	    {% endif %}
+	    <span><a href="{{ page.github_url }}" target="_blank" class="btn btn-info">Github Repo</a></span>
+	    <span><a href="/portfolio/" class="btn btn-info">Back</a></span>
 </div>
