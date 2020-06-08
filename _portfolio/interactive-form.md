@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Interactive Form
-live_url: https://brianlockerbie.com
-github_url: https://github.com/brianlockerbie/TechDegreeProject-3
+live_url: https://brianlockerbie.com/interactive-form/
+github_url: https://github.com/brianlockerbie/interactive-form
 image: img/screenshot_3.png
 date: 2020-05-26 12:00:00 -0400
 description: This is the third of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.

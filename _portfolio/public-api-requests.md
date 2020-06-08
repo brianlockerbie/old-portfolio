@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Public API Requests
-live_url: https://brianlockerbie.com
-github_url: https://github.com/brianlockerbie/TechDegreeProject-5
+live_url: https://brianlockerbie.com/public-api-requests/
+github_url: https://github.com/brianlockerbie/public-api-requests
 image: img/screenshot_5.png
 date: 2020-05-26 12:00:00 -0400
 description: This is the fifth of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.

@@ -1,7 +1,8 @@
 ---
 layout: project
 title: OOP Game
-github_url: https://github.com/brianlockerbie/TechDegreeProject-4
+live_url: https://brianlockerbie.com/oop-game/
+github_url: https://github.com/brianlockerbie/oop-game
 image: img/screenshot_4.png
 date: 2020-05-26 12:00:00 -0400
 description: his is the fourth of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript. 

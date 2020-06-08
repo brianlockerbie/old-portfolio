@@ -1,8 +1,8 @@
 ---
 layout: project
 title: REST-API
-live_url: https://brianlockerbie.com
-github_url: https://github.com/brianlockerbie/TechDegreeProject-9
+live_url: http://brianlockerbie.com/rest-api/
+github_url: https://github.com/brianlockerbie/rest-api
 image: img/screenshot_9.png
 date: 2020-05-26 12:00:00 -0400
 description: This is the ninth of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript. 

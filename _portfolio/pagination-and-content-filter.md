@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Pagination & Content Filter
-live_url: https://brianlockerbie.com
-github_url: https://github.com/brianlockerbie/TechDegreeProject-2
+live_url: https://brianlockerbie.com/pagination-and-content-filter/
+github_url: https://github.com/brianlockerbie/pagination-and-content-filter
 image: img/screenshot_2.png
 date: 2020-5-25 12:00:00 -0400
 description: This is the second of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.

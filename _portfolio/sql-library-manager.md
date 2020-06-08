@@ -1,8 +1,8 @@
 ---
 layout: project
 title: SQL-Library_Manager
-live_url: https://brianlockerbie.com
-github_url: https://github.com/brianlockerbie/TechDegreeProject-8
+live_url: http://brianlockerbie.com/sql-library-manager/
+github_url: https://github.com/brianlockerbie/sql-library-manager
 image: img/screenshot_8.png
 date: 2020-05-26 12:00:00 -0400
 description: This is the eighth of ten projects for the 🏡 Treehouse Techdegree Full Stack JavaScript.
