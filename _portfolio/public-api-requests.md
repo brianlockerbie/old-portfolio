@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Public API Requests
-live_url: https://brianlockerbie.com/public-api-requests/
+live_url: https://brianlockerbie.github.io/public-api-requests/
 github_url: https://github.com/brianlockerbie/public-api-requests
 image: img/screenshot_5.png
 date: 2020-05-26 12:00:00 -0400
