@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Interactive Form
-live_url: https://brianlockerbie.com/interactive-form/
+live_url: https://brianlockerbie.github.io/interactive-form/
 github_url: https://github.com/brianlockerbie/interactive-form
 image: img/screenshot_3.png
 date: 2020-05-26 12:00:00 -0400
