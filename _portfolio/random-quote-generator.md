@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Random Quote Generator
 live_url: https://brianlockerbie.com/random-quote-generator/
 github_url: https://github.com/brianlockerbie/random-quote-generator
