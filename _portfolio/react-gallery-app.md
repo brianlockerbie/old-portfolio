@@ -1,8 +1,8 @@
 ---
 layout: project
 title: React Gallary App
-live_url: http://brianlockerbie.com/react-gallary-app/
-github_url: https://github.com/brianlockerbie/react-gallary-app
+live_url: http://brianlockerbie.com/react-gallery-app/
+github_url: https://github.com/brianlockerbie/react-gallery-app
 image: img/screenshot_6.png
 date: 2020-05-26 12:00:00 -0400
 description: This is the sixth of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.
