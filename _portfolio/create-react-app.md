@@ -14,11 +14,4 @@ View Project
 1. Download this repo.
 2. Navigate to the project directory in the command line/terminal.
 3. Run 'npm install' (or view the required dependencies listed in the package.json file and install each manually).
-4. Create an account with Flickr and apply for a non-commercial API key.
-5. Create a config.js file in the project's src folder.
-
-In the config file add:
-const apiKey = 'YOUR API KEY';
-export default apiKey;
-
-6. Run 'npm start' to view the project in your browser at: localhost:3000
+4. Run 'npm start' to view the project in your browser at: localhost:3000
