@@ -4,7 +4,7 @@ title: Create React App
 live_url: https://brianlockerbie.github.io/create-react-app/
 github_url: https://github.com/brianlockerbie/create-react-app
 image: img/screenshot_7.png
-date: 2020-05-28 12:00:00 -0400
+date: 2020-04-28 12:00:00 -0400
 description: This is the seventh of ten projects for the 🏡 Treehouse Techdegree Full Stack JavaScript. 
 ---
 Seventh project for the Treehouse Full-Stack JavaScript Techdegree. A React app that creates an image gallery. This project was bootstrapped with Create React App.
