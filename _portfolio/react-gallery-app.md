@@ -4,7 +4,7 @@ title: React Gallery App
 live_url: https://brianlockerbie.github.io/react-gallery-app/
 github_url: https://github.com/brianlockerbie/react-gallery-app
 image: img/screenshot_6.png
-date: 2020-05-26 12:00:00 -0400
+date: 2019-11-01 12:00:00 -0400
 description: This is the sixth of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.
 ---
 Project 6 💥📚 
