@@ -1,6 +1,6 @@
 ---
 layout: project
-title: SQL-Library-Manager
+title: SQL Library Manager
 live_url: https://brianlockerbie.github.io/sql-library-manager/
 github_url: https://github.com/brianlockerbie/sql-library-manager
 image: img/screenshot_8.png
