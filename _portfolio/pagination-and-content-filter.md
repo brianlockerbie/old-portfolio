@@ -4,7 +4,7 @@ title: Pagination & Content Filter
 live_url: https://brianlockerbie.github.io/pagination-and-content-filter/
 github_url: https://github.com/brianlockerbie/pagination-and-content-filter
 image: img/screenshot_2.png
-date: 2020-5-25 12:00:00 -0400
+date: 2019-7-1 12:00:00 -0400
 description: This is the second of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.
 ---
 Second project for the Treehouse Full-Stack JavaScript Techdegree. Single-paged app that displays a list of users that are hard coded into the HTML. It then uses JavaScript to display ten users at a time a paginates it. When the links at the bottom are clicked the corresponding page is displayed. Also alows the user to filter through names with a search bar.
