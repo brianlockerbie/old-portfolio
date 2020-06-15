@@ -1,8 +1,9 @@
 ---
 layout: project
 title: Random Quote Generator
-live_url: https://brianlockerbie.github.io/random-quote-generator/
+live url permalink: https://brianlockerbie.github.io/random-quote-generator/
 github_url: https://github.com/brianlockerbie/random-quote-generator
+
 image: img/screenshot_1.png
 date: 2019-06-01 12:00:00 -0400
 description: This is the first of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript. 
