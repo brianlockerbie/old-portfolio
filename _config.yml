@@ -11,4 +11,3 @@ permalink: /blog/:year/:month/:title/
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:name/
