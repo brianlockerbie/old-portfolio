@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Random Quote Generator
-live_url: brianlockerbie.github.io/random-quote-generator/
+permalink: https://brianlockerbie.github.io/random-quote-generator/
 github_url: https://github.com/brianlockerbie/random-quote-generator
 image: img/screenshot_1.png
 date: 2019-06-01 12:00:00 -0400
