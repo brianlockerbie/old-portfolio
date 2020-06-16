@@ -3,7 +3,7 @@ title: Brian Lockerbie
 author: Brian Lockerbie
 description: Brian Lockerbie's personal website
 url: 'https://brianlockerbie.github.io/'
-baseurl: ''
+baseurl: 'https://brianlockerbie.github.io/'
 # Permalink for blog posts
 permalink: /blog/:year/:month/:title/
 
@@ -11,3 +11,4 @@ permalink: /blog/:year/:month/:title/
 collections:
   portfolio:
     output: true
+    permalink: /:collection/:name/
