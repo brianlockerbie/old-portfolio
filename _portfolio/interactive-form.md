@@ -7,4 +7,9 @@ image: img/screenshot_3.png
 date: 2019-08-01 12:00:00 -0400
 description: This is the third of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.
 ---
-Third project for the Treehouse Full-Stack JavaScript Techdegree. App that manipulates a registration form and validates the users input. Gives different error messages when the page is submited with invalid inputs.
+I created an app that manipulates a registration form and validates the users input. It gives different error messages when the page is submited with invalid inputs. This project uses JavaScript and form validation using regular expressions to enhance an interactive registration form.
+
+Techniques and concepts
+jQuery - For document traversal/manipulation, event handling and animation
+Regular Expressions - For form validation
+
