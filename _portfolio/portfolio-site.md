@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Portfolio site (built with Node.js, Express and Pug)
-live_url: https://brianlockerbie.github.io/react-gallery-app/
-github_url: https://github.com/brianlockerbie/react-gallery-app
+live_url: https://brianlockerbie.github.io/portfolio-site/
+github_url: https://github.com/brianlockerbie/portfolio-site
 image: img/screenshot_6.png
 date: 2019-11-01 12:00:00 -0400
 description: This is the sixth of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript.
