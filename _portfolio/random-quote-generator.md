@@ -9,4 +9,4 @@ description: This is the first of ten projects for the 🏡 Treehouse TechDegree
 ---
 I created a single-paged app that displays a quote at random each time the button is clicked. When the quote changes, the background colour of the page randomly changes as well.
 
-#Techniques and concepts: basic JavaScript syntax, variables, loops, conditionals, object literals and data structures.
+Techniques and concepts: basic JavaScript syntax, variables, loops, conditionals, object literals and data structures.
