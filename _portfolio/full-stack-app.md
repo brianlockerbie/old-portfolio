@@ -7,7 +7,9 @@ image: img/screenshot_10.png
 date: 2020-05-31 12:00:00 -0400
 description: This is the tenth of ten projects for the 🏡 Treehouse TechDegree Full Stack JavaScript. 
 ---
-The Tenth and Final project for the Full-Stack JavaScript Techdegree from Treehouse. This is a full stack application with a back-end using Node.js, Express, SQL and Sequelize, and a front-end of React.js. This application will allow you to create a user account, login with authentication and create, edit and delete and view courses. You must create an account to create a course and must be authorized to update and delete any course.
+I created a full stack application with a back-end using Node.js, Express, SQL and Sequelize, and a front-end of React.js. This application will allow you to create a user account, login with authentication and create, edit and delete and view courses. You must create an account to create a course and must be authorized to update and delete any course.
+
+Techniques and Concepts: JavaScript, Node.js, Express.js, Sequelize ORM, Express Validator, React, REST API, User Authorization, Error Handliing & Cors
 
 View project
 1. Download this repo.

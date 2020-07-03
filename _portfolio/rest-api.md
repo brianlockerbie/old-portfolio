@@ -9,9 +9,7 @@ description: This is the ninth of ten projects for the 🏡 Treehouse TechDegree
 ---
 In this project, I created a REST API using Express. The API provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating and deleting courses in the database. Users are required to create an account and log-in to make changes to the database.
 
-REST API
-
-A REST API that lets users create, list, update and delete items from a school database.
+Techniques and Concepts: Node.js, REST API, Express.js, Sequelize ORM, Express Validator & DB Browser for SQLite
 
 View project
 
