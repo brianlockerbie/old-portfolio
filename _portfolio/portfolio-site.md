@@ -18,10 +18,4 @@ View project
 3. Run 'npm install' (or view the required dependencies listed in the package.json file and install each manually).
 4. Run 'npm start' to view the project in your browser at: localhost:3000
 
-Techniques and concepts:
-Node.js
-npm
-express.js
-pug template engine
-middleware
-error handling
+Techniques and Concepts: Node.js, Npm, Express.js, Pug Template Engine, Middleware & Error Handling

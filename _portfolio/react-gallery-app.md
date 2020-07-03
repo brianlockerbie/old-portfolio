@@ -9,12 +9,7 @@ description: This is the seventh of ten projects for the 🏡 Treehouse Techdegr
 ---
 In this project I created A React app that creates an image gallery. This project was bootstrapped with Create React App. JSX is used to write markup-like syntax directly in the JS files and managing state in a container component that passes data down to reusable stateless components.
 
-Techniques and concepts:
-create-react-app
-JSX
-React Router
-Fetch API
-Flickr API
+Techniques and Concepts: Create-React-App, JSX, React Router, Fetch API & Flickr API
 
 View Project
 
