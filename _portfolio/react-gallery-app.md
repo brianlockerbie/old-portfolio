@@ -3,7 +3,7 @@ layout: project
 title: React Gallery App
 live_url: https://image-react-gallery.netlify.app/
 github_url: https://github.com/brianlockerbie/react-gallery-app
-image: img/screenshot_77.png
+image: img/screenshot_7.png
 date: 2020-04-28 12:00:00 -0400
 description: This is the seventh of ten projects for the 🏡 Treehouse Techdegree Full Stack JavaScript. 
 ---
