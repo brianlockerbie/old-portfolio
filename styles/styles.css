@@ -1,5 +1,5 @@
 * {
-	  box-sizing: border-box;
+	      box-sizing: border-box;
 }
 
 body {
@@ -25,11 +25,11 @@ img { max-width: 100%; height: auto; }
 
 /* Makes sure content isn't blocked by the footer */
 .main-content {
-	padding-bottom: 10em;
+	      padding-bottom: 10em;
 }
 
 .blog-list {
-	list-style-type: none;
+	      list-style-type: none;
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom: 2px #000000 solid;
@@ -72,10 +72,6 @@ figcaption {
 
 .portfolio {
   height: 20em;
-}
-
-.too-big {
-  height: 27vw;
 }
 
 
