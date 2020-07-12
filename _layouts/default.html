@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
-	    <head>            
+	    <head>
 		        {% if jekyll.environment == 'production' %}
 		        {% include analytics.html %}
 		        {% endif %}
 		        <meta charset="UTF-8">
 		        <meta name="description" content="{{ site.description }}">
 		        <meta name="keywords" content="{{ site.title }} Developer">
-				    <meta name="author" content="{{ site.author }}">
-				    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-            <meta name="HandheldFriendly" content="true">                
+		        <meta name="author" content="{{ site.author }}">
+		        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		        <link rel="icon" href="{{ site.baseurl }}{% link img/favicon.ico %}">
 		        <title>{{ page.title }} {% if page.layout == 'post' %}| Blog {% endif %}{% if page.layout == 'project' %}| Portfolio {% endif %}| {{ site.title }} </title>
+		        <!-- Font Awesome CDN -->
+		        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		        <!-- bootstrap CDN -->
 		        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		        <!-- Animate.CSS -->
@@ -28,7 +28,7 @@
 		        <div class="main-content container animated fadeIn">
 			            <!-- Main Content -->
 			            {{ content }}
-			            <!-- /Main Content -->
+			                <!-- /Main Content -->
 		        </div>
 
 		        <nav class="footer navbar navbar-fixed-bottom navbar-expand-sm navbar-light bg-light">
@@ -43,6 +43,6 @@
 		          </div>
 		        </nav>
 	    </body>
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
