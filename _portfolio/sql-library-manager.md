@@ -1,7 +1,7 @@
 ---
 layout: project
 title: SQL Library Manager
-live_url: https://brianlockerbie.github.io/sql-library-manager/
+live_url: https://sql-library-manager-1.herokuapp.com/books/page/1
 github_url: https://github.com/brianlockerbie/sql-library-manager
 image: img/screenshot_8.png
 date: 2020-04-30 12:00:00 -0400

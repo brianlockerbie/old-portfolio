@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Portfolio site (built with Node.js, Express and Pug)
-live_url: https://brianlockerbie.github.io/portfolio-site/
+live_url: https://portfolio-site-1.herokuapp.com/
 github_url: https://github.com/brianlockerbie/portfolio-site
 image: img/screenshot_6.png
 date: 2019-11-01 12:00:00 -0400
