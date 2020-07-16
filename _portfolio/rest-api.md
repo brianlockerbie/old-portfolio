@@ -1,7 +1,6 @@
 ---
 layout: project
 title: REST-API
-live_url: http://brianlockerbie.com/rest-api/
 github_url: https://github.com/brianlockerbie/rest-api
 image: img/screenshot_9.png
 date: 2020-05-29 12:00:00 -0400
