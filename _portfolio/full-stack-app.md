@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Full-Stack-APP with React and a REST API 🖼️
-live_url: https://brianlockerbie.github.io/full-stack-app/
+live_url: https://coursefinder111.herokuapp.com/
 github_url: https://github.com/brianlockerbie/full-stack-app
 image: img/screenshot_10.png
 date: 2020-05-31 12:00:00 -0400
@@ -9,7 +9,7 @@ description: This is the tenth of ten projects for the 🏡 Treehouse TechDegree
 ---
 I created a full stack application with a back-end using Node.js, Express, SQL and Sequelize, and a front-end of React.js. This application will allow you to create a user account, login with authentication and create, edit and delete and view courses. You must create an account to create a course and must be authorized to update and delete any course.
 
-Techniques and Concepts: JavaScript, Node.js, Express.js, Sequelize ORM, Express Validator, React, REST API, User Authorization, Error Handliing & Cors
+Techniques and Concepts: JavaScript, Node.js, Express.js, Sequelize ORM, Express Validator, React, REST API, User Authorization % Error Handling
 
 View project
 1. Download this repo.
